@@ -1,6 +1,6 @@
 # D3-Animation-Demo
 
-Here's my test demo!  I used combined two resources I found online:
+Here's my test demo!  I combined two resources I found online:
 
 pagePiling.js  -  http://alvarotrigo.com/pagePiling/ (Links to an external site.)
 
