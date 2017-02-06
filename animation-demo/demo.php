@@ -41,8 +41,6 @@
 			    var div2=d3.select(document.getElementById('div2'));
 			    var div3=d3.select(document.getElementById('div3'));
 
-			    document.getElementById("wrapper").addEventListener("wheel", delay);
-
 			    function labelFunction(val,min,max) {
 
 			    }
