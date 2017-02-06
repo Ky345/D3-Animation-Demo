@@ -28,9 +28,8 @@
 		</div>
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script> 
 		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-		<script src="js/jquery.pagepiling.js"></script>
+		<script src="js/demo.js"></script>
 		<script type="text/javascript" src="js/d3.min.js"></script>
-		<script type="text/javascript" src="js/radialProgress.js"></script>
 		<script>
 			$(document).ready(function() {
 				$('#pagepiling').pagepiling({
@@ -40,42 +39,15 @@
 
 				var div1=d3.select(document.getElementById('div1'));
 			    var div2=d3.select(document.getElementById('div2'));
-			    var div3=d3.select(document.getElementById('div3')); 
+			    var div3=d3.select(document.getElementById('div3'));
 
 			    document.getElementById("wrapper").addEventListener("wheel", delay);
-
-			    function delay() {
-			    	setTimeout(function() {
-			    	start();
-				    }, 1000);
-			    }
-			    
 
 			    function labelFunction(val,min,max) {
 
 			    }
 
-			    function start() {
-
-			        var rp1 = radialProgress(document.getElementById('div1'))
-			                .label("HTML")
-			                .diameter(250)
-			                .value(100)
-			                .render();
-
-			        var rp2 = radialProgress(document.getElementById('div2'))
-			                .label("CSS")
-			                .diameter(250)
-			                .value(100)
-			                .render();
-
-			        var rp3 = radialProgress(document.getElementById('div3'))
-			                .label("PHP")
-			                .diameter(250)
-			                .value(80)
-			                .render();
-
-			    }
+			    
 
 			});
 		</script>
